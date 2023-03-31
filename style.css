@@ -37,13 +37,14 @@ span{
   color: 	#00008B;
 }
 .btn{
-    padding: 1rem 2rem;
-    margin-top: 2rem;
-    background-color: transparent;
-    text-decoration: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: .2s;
+  background:#00008B;
+  padding: 10px 30px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 .btn:hover{
     transform: translateY(2px);
@@ -120,18 +121,8 @@ button a{
   line-height: 0.5;
   line-height: normal;
 }
-button:hover{
-  transform: scale(1.2);
-  transition: .3s;
-  cursor: pointer;
-}
 
-.bta{
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 910px) {
   body{
     flex-wrap: wrap;
   }
